@@ -1,5 +1,5 @@
 img{
-  width: 10%;
-  height: 20%;
-  border: 6px solid darkgreen;
+  display: none;
 }  
+.walrus-showing {
+  display: none;
