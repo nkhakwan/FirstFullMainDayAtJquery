@@ -18,6 +18,14 @@ $(document).ready(function(){
     $("button#hello").click(function() {
       $("ul#user").prepend("<li>Hello!</li>");
       $("ul#webPage").prepend("<li>why Hello!</li>");
+      $('li').css('background-color', 'green');
+      $("ul#user").children("li").first().click(function() {
+        alert('hi');
+      });
+      $("ul#user").children("li").first().click(function() {
+        $(this).remove();
+      });
+   
     });
   
     $("button#goodbye").click(function() {
